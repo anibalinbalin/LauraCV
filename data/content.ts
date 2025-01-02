@@ -4,14 +4,14 @@ export const contentData = [
     items: [
       {
         title: "Charlas de educación nutricional en escuelas",
-        subTitle: "Todo el país",
+        subTitle: "",
         date: "2024 - presente",
-        description: "Educación nutricional enfocada en alimentación saludable, fomentando consumo de hierro y B12. Asesoramiento Nutricional para implementación de políticas nutricionales y planes de menú en Colegio The Garzón school.",
+        description: "Charlas de educación nutricional en escuelas de todo el país enfocadas en alimentación saludable poniendo enfasis en fomentar consumo de hierro y B12.\n\nAsesoramiento Nutricional para implementación de políticas nutricionales y planes de menú en Colegio The Garzón school.",
       },
       {
         title: "Nutricionista particular",
         subTitle: "Práctica privada",
-        date: "2024 - presente",
+        date: "",
         description: "Asesoramiento nutricional personalizado • Desarrollo de planes alimenticios individualizados • Seguimiento y ajuste de objetivos nutricionales.",
       },
     ],
@@ -26,13 +26,13 @@ export const contentData = [
         description: "Acargo planes nutricionales",
       },
       {
-        title: "Directora en Sabia Saviá Nutrición",
+        title: "Directora en Sabia Savia Nutrición",
         subTitle: "Health coaching y cocina natural",
         date: "2017 - 2022",
         description: "Asesoramiento Programas Nutrición Transformadora (patologías y cambios de hábitos individuales), Nutrición Transformadora Deportiva, Transforma tu familia (cambio de hábitos y tratamiento a nivel familiar). Cocina con Sentido (talleres de cocina individuales y para empresas), Sanatorio Cantegril, Gimnasio Hero crossfit, Cacfimm Maldonado. El Claro, Clínica de medicina natural en Punta del Este.",
       },
       {
-        title: "Directora en Nam Nam",
+        title: "Directora en Ñam Ñam",
         subTitle: "Educación nutricional",
         date: "2015",
         description: "Talleres de cocina saludable para niños",
@@ -182,7 +182,7 @@ export const contentData = [
         title: "Jornada de actualización Nutrición en Obesidad",
         subTitle: "Dra. Maria Elena Torresani",
         date: "2014",
-        description: "Y sus comorbilidades",
+        description: "",
       },
       {
         title: "1ª Jornada de innovación en Prácticas de ICEAN",

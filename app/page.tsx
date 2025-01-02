@@ -23,7 +23,7 @@ const Content: React.FC<ContentProps> = ({ title, items }) => {
                   {item.subTitle}
                 </p>
                 {item.description ? (
-                  <p className="text-slate-600 dark:text-gray-400 mt-2">
+                  <p className="text-slate-600 dark:text-gray-400 mt-2 whitespace-pre-line">
                     {item.description}
                   </p>
                 ) : null}
