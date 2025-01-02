@@ -1,8 +1,14 @@
+'use client';
+
 import Image from "next/image";
 import { ThemeToggle } from "@/components/theme-toggle";
-import { generalData } from "@/data/general";
-import { contentData } from "@/data/content";
+import LanguageSwitcher from "@/components/language-switcher";
+import { generalData as generalDataEs } from "@/data/general";
+import { generalData as generalDataEn } from "@/data/general.en";
+import { contentData as contentDataEs } from "@/data/content";
+import { contentData as contentDataEn } from "@/data/content.en";
 import type { Content } from "@/data/content";
+import { useLanguage } from "@/lib/language-context";
 
 type ContentProps = Content;
 
@@ -37,10 +43,22 @@ const Content: React.FC<ContentProps> = ({ title, items }) => {
 };
 
 export default function Home() {
+  const { language } = useLanguage();
+  const generalData = language === 'es' ? generalDataEs : generalDataEn;
+  const contentData = language === 'es' ? contentDataEs : contentDataEn;
+
   return (
     <>
+      <nav className="fixed top-0 left-0 right-0 z-10 bg-white dark:bg-[#121212]">
+        <div className="max-w-xl mx-auto px-6 py-4 flex justify-end">
+          <div className="flex items-center gap-2">
+            <ThemeToggle />
+            <LanguageSwitcher />
+          </div>
+        </div>
+      </nav>
       <main className="max-w-xl mx-auto px-6 py-20 relative min-h-screen font-light">
-        <section className="flex items-center">
+        <section className="flex items-center mt-4">
           <Image
             alt="Author"
             src={generalData.avatar}
@@ -72,7 +90,9 @@ export default function Home() {
           </div>
         </section>
         <section className="my-9 text-sm">
-          <h3 className="mb-6 text-slate-900 dark:text-slate-100">Datos Personales</h3>
+          <h3 className="mb-6 text-slate-900 dark:text-slate-100">
+            {language === 'es' ? 'Datos Personales' : 'Personal Information'}
+          </h3>
           <div className="flex flex-col gap-6">
             {generalData.personalInfo.map((info, index) => (
               <div className="flex" key={index}>
@@ -111,7 +131,9 @@ export default function Home() {
           </div>
         </section>
         <section className="my-9 text-sm">
-          <h3 className="mb-1 text-slate-900 dark:text-slate-100">About</h3>
+          <h3 className="mb-1 text-slate-900 dark:text-slate-100">
+            {language === 'es' ? 'Sobre mí' : 'About'}
+          </h3>
           <div className="text-slate-600 dark:text-slate-300">
             <p>{generalData.about}</p>
           </div>
@@ -119,8 +141,7 @@ export default function Home() {
         {contentData.map((content, index) => {
           return <Content {...content} key={index} />;
         })}
-        <div className="px-6 absolute left-0 right-0 bottom-6 flex items-center justify-between">
-          <ThemeToggle />
+        <div className="px-6 absolute left-0 right-0 bottom-6 flex items-center justify-end">
           <span className="text-sm text-gray-400">last updated: January 2 - 2025</span>
         </div>
       </main>
