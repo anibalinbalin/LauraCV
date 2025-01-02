@@ -1,30 +1,32 @@
 export const generalData = {
-  name: "John Doe",
-  avatar: "https://github.com/ibelick.png",
-  jobTitle: "Senior Front-End Developer",
-  website: "https://www.julienthibeaut.xyz",
-  about:
-    "Hey there! I'm John, a senior front-end developer with 10 years of experience in web development.",
-  contacts: [
+  name: "Laura Fuentes Arocena",
+  avatar: "/laura.png",
+  jobTitle: "Nutricionista",
+  website: "",
+  personalInfo: [
+    {
+      label: "Fecha de Nacimiento",
+      value: "17 de Junio de 1983, Rosario departamento de Colonia",
+    },
+    {
+      label: "C.I.",
+      value: "4.083.148/7",
+    },
     {
       label: "Email",
-      value: "john.doe@gmail.com",
-      href: "mailto:john.doe@gmail.com",
+      value: "laurafuentesaro@gmail.com",
+      href: "mailto:laurafuentesaro@gmail.com",
     },
     {
-      label: "Twitter",
-      value: "ibelick",
-      href: "https://twitter.com/ibelick",
+      label: "Teléfono",
+      value: "099108220",
+      href: "tel:099108220",
     },
     {
-      label: "Github",
-      value: "ibelick",
-      href: "https://github.com/ibelick",
-    },
-    {
-      label: "Read.CV",
-      value: "ibelick",
-      href: "https://read.cv/ibelick",
+      label: "Dirección",
+      value: "Del Cerro esquina Buena Vista, Pueblo San Vicente Maldonado-Uruguay cp:20000",
+      href: "#",
     },
   ],
+  about: "Nutricionista especializada en educación nutricional y asesoramiento personalizado, con enfoque en alimentación saludable y desarrollo de planes alimenticios individualizados.",
 };

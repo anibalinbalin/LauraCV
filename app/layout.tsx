@@ -4,6 +4,7 @@ import { ServerThemeProvider } from "next-themes";
 import Providers from "./providers";
 import { generalData } from "@/data/general";
 import type { Metadata } from "next";
+import { ThemeProvider } from 'next-themes'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,12 +35,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <ServerThemeProvider attribute="class">
-      <html lang="en">
-        <body className={`${inter.className} dark:bg-neutral-900`}>
+    <html lang="en" suppressHydrationWarning>
+      <body>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Providers>{children}</Providers>
-        </body>
-      </html>
-    </ServerThemeProvider>
+        </ThemeProvider>
+      </body>
+    </html>
   );
 }
