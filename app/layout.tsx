@@ -1,10 +1,9 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
-import { ServerThemeProvider } from "next-themes";
-import Providers from "./providers";
+import { ThemeProvider } from 'next-themes';
+import { LanguageProvider } from '@/lib/language-context';
 import { generalData } from "@/data/general";
 import type { Metadata } from "next";
-import { ThemeProvider } from 'next-themes'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -38,7 +37,9 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <Providers>{children}</Providers>
+          <LanguageProvider>
+            {children}
+          </LanguageProvider>
         </ThemeProvider>
       </body>
     </html>
