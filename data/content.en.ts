@@ -3,16 +3,16 @@ export const contentData = [
     title: "Current Experience",
     items: [
       {
-        title: "Nutritional Education Talks in Schools",
-        subTitle: "Nationwide",
+        title: "Nutritionist at Alimentando Sueños Program coordinated by Deborah Rodriguez and INAC",
+        subTitle: "",
         date: "2024 - present",
-        description: "Nutritional education focused on healthy eating, promoting iron and B12 consumption. Nutritional consulting for implementing nutritional policies and menu plans at The Garzón School.",
+        description: "Nutritional education talks in schools nationwide focused on healthy eating with emphasis on promoting iron and B12 consumption.",
       },
       {
-        title: "Private Nutritionist",
+        title: "Private Nutritionist specialized in anti-inflammatory nutrition and FODMAP protocol focused on gut health",
         subTitle: "Private Practice",
         date: "2024 - present",
-        description: "Personalized nutritional counseling • Development of individualized meal plans • Monitoring and adjustment of nutritional goals.",
+        description: "Personalized nutritional counseling\n• Development of nutritional plans\n• Monitoring and adjustment of nutritional goals.",
       },
     ],
   },
@@ -119,6 +119,18 @@ export const contentData = [
   {
     title: "Completed Courses",
     items: [
+      {
+        title: "FODMAP Diet Training",
+        subTitle: "Monash University",
+        date: "2023",
+        description: "",
+      },
+      {
+        title: "Training in Integrative Medicine and Clinical PNI",
+        subTitle: "Regenera",
+        date: "2023",
+        description: "",
+      },
       {
         title: "Training in Orthomolecular Medicine & Epigenetics",
         subTitle: "",

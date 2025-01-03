@@ -3,16 +3,16 @@ export const contentData = [
     title: "Experiencia Actual",
     items: [
       {
-        title: "Charlas de educación nutricional en escuelas",
+        title: "Nutricionista del Programa Alimentado sueños corrdinado por Deborah Rodriguez e INAC",
         subTitle: "",
         date: "2024 - presente",
-        description: "Charlas de educación nutricional en escuelas de todo el país enfocadas en alimentación saludable poniendo enfasis en fomentar consumo de hierro y B12.\n\nAsesoramiento Nutricional para implementación de políticas nutricionales y planes de menú en Colegio The Garzón school.",
+        description: "Charlas de educación nutricional en escuelas de todo el país enfocadas en alimentación saludable poniendo enfasis en fomentar consumo de hierro y B12.",
       },
       {
-        title: "Nutricionista particular",
+        title: "Nutricionista particular enfocada en alimentación antiinflamatoria, protocolo fodmap enfocado en intestino",
         subTitle: "Práctica privada",
         date: "",
-        description: "Asesoramiento nutricional personalizado • Desarrollo de planes alimenticios individualizados • Seguimiento y ajuste de objetivos nutricionales.",
+        description: "Asesoramiento nutricional personalizado\n• Desarrollo de planes nutricionales\n• Seguimiento y ajuste de objetivos nutricionales.",
       },
     ],
   },
@@ -119,6 +119,18 @@ export const contentData = [
   {
     title: "Cursos realizados",
     items: [
+      {
+        title: "Formación en dieta fodmaps",
+        subTitle: "Universidad Monash",
+        date: "2023",
+        description: "",
+      },
+      {
+        title: "Formación en Medicina Integrativa y PNI clinica",
+        subTitle: "Regenera",
+        date: "2023",
+        description: "",
+      },
       {
         title: "Formación en Medicina Ortomolecular & Epigenética",
         subTitle: "",
