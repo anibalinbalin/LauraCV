@@ -134,7 +134,7 @@ export default function Home() {
           <h3 className="mb-1 text-slate-900 dark:text-slate-100">
             {language === 'es' ? 'Sobre mí' : 'About'}
           </h3>
-          <div className="text-slate-600 dark:text-slate-300">
+          <div className="text-slate-600 dark:text-gray-400">
             <p>{generalData.about}</p>
           </div>
         </section>
