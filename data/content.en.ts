@@ -6,7 +6,13 @@ export const contentData = [
         title: "Nutritionist at Alimentando Sueños Program coordinated by Deborah Rodriguez and INAC",
         subTitle: "",
         date: "2024 - present",
-        description: "Nutritional education talks in schools nationwide focused on healthy eating with emphasis on promoting iron and B12 consumption.\n\nNutritional consulting for implementing nutritional policies and menu plans at The Garzón School.",
+        description: "Nutritional education talks in schools nationwide focused on healthy eating with emphasis on promoting iron and B12 consumption.",
+      },
+      {
+        title: "Nutritionist at The Garzón School",
+        subTitle: "",
+        date: "2024 - present",
+        description: "Nutritional consulting for implementing nutritional policies and menu plans.",
       },
       {
         title: "Private Nutritionist specialized in anti-inflammatory nutrition and FODMAP protocol focused on gut health",

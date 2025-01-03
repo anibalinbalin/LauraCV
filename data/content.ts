@@ -6,7 +6,13 @@ export const contentData = [
         title: "Nutricionista del Programa Alimentado sueños corrdinado por Deborah Rodriguez e INAC",
         subTitle: "",
         date: "2024 - presente",
-        description: "Charlas de educación nutricional en escuelas de todo el país enfocadas en alimentación saludable poniendo enfasis en fomentar consumo de hierro y B12.\n\nAsesoramiento Nutricional para implementación de políticas nutricionales y planes de menú en Colegio The Garzón school.",
+        description: "Charlas de educación nutricional en escuelas de todo el país enfocadas en alimentación saludable poniendo enfasis en fomentar consumo de hierro y B12.",
+      },
+      {
+        title: "Nutricionista en Colegio The Garzón school",
+        subTitle: "",
+        date: "2024 - presente",
+        description: "Asesoramiento Nutricional para implementación de políticas nutricionales y planes de menú.",
       },
       {
         title: "Nutricionista particular enfocada en alimentación antiinflamatoria, protocolo fodmap enfocado en intestino",
