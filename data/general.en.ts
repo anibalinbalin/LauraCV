@@ -28,5 +28,5 @@ export const generalData = {
       href: "#",
     },
   ],
-  about: "Nutritionist specialized in nutritional education and personalized counseling, focusing on healthy eating and development of individualized meal plans.",
+  about: "Nutritionist specialized in nutritional education and personalized counseling, focusing on healthy eating and development of individualized nutritional plans.",
 };

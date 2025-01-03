@@ -28,5 +28,5 @@ export const generalData = {
       href: "#",
     },
   ],
-  about: "Nutricionista especializada en educación nutricional y asesoramiento personalizado, con enfoque en alimentación saludable y desarrollo de planes alimenticios individualizados.",
+  about: "Nutricionista especializada en educación nutricional y asesoramiento personalizado, con enfoque en alimentación saludable y desarrollo de planes nutricionales individualizados.",
 };
