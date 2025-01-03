@@ -49,7 +49,7 @@ export default function Home() {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 right-0 z-10 bg-white dark:bg-[#121212]">
+      <nav className="fixed top-0 left-0 right-0 z-10 bg-white dark:bg-[#121212] border-b border-slate-900/10 dark:border-slate-300/10">
         <div className="max-w-xl mx-auto px-6 py-4 flex justify-end">
           <div className="flex items-center gap-2">
             <ThemeToggle />
