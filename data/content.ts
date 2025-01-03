@@ -9,7 +9,7 @@ export const contentData = [
         description: "Charlas de educación nutricional en escuelas de todo el país enfocadas en alimentación saludable poniendo enfasis en fomentar consumo de hierro y B12.",
       },
       {
-        title: "Nutricionista en Colegio The Garzón school",
+        title: "Nutricionista en Colegio The Garzón School",
         subTitle: "",
         date: "",
         description: "Asesoramiento Nutricional para implementación de políticas nutricionales y planes de menú.",
