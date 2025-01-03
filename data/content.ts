@@ -11,7 +11,7 @@ export const contentData = [
       {
         title: "Nutricionista en Colegio The Garzón school",
         subTitle: "",
-        date: "2024 - presente",
+        date: "",
         description: "Asesoramiento Nutricional para implementación de políticas nutricionales y planes de menú.",
       },
       {

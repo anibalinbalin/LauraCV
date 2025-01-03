@@ -11,7 +11,7 @@ export const contentData = [
       {
         title: "Nutritionist at The Garzón School",
         subTitle: "",
-        date: "2024 - present",
+        date: "",
         description: "Nutritional consulting for implementing nutritional policies and menu plans.",
       },
       {
