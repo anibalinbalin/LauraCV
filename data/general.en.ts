@@ -1,12 +1,12 @@
 export const generalData = {
-  name: "Laura Fuentes Arocena",
+  name: "Laura Fuentes",
   avatar: "/laura.png",
   jobTitle: "Nutritionist",
   website: "",
   personalInfo: [
     {
       label: "Date of Birth",
-      value: "June 17, 1983, Rosario, Colonia Department",
+      value: "June 17, 1983, Rosario, Colonia",
     },
     {
       label: "ID",
@@ -24,9 +24,9 @@ export const generalData = {
     },
     {
       label: "Address",
-      value: "Del Cerro corner Buena Vista, San Vicente Village, Maldonado-Uruguay cp:20000",
+      value: "Del Cerro corner Buena Vista, San Vicente Village, Maldonado, Uruguay (ZIP: 20000)",
       href: "#",
     },
   ],
-  about: "Nutritionist specialized in nutritional education and personalized counseling, focusing on healthy eating and development of individualized nutritional plans.",
+  about: "Nutritionist specialized in nutritional education and personalized counseling, focusing on healthy eating and development of individualized nutritional plans. Specialist in nutritional intervention for digestive pathologies, with over a decade of experience in treating gastrointestinal disorders through personalized nutritional protocols.",
 };

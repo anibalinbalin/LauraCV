@@ -142,7 +142,7 @@ export default function Home() {
           return <Content {...content} key={index} />;
         })}
         <div className="px-6 absolute left-0 right-0 bottom-6 flex items-center justify-end">
-          <span className="text-sm text-gray-400">last updated: January 2 - 2025</span>
+          <span className="text-sm text-gray-400">última actualización: 22 de mayo - 2025</span>
         </div>
       </main>
     </>

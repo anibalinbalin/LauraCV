@@ -1,12 +1,12 @@
 export const generalData = {
-  name: "Laura Fuentes Arocena",
+  name: "Laura Fuentes",
   avatar: "/laura.png",
   jobTitle: "Nutricionista",
   website: "",
   personalInfo: [
     {
       label: "Fecha de Nacimiento",
-      value: "17 de Junio de 1983, Rosario departamento de Colonia",
+      value: "17 de Junio de 1983, Rosario, Colonia",
     },
     {
       label: "C.I.",
@@ -24,9 +24,9 @@ export const generalData = {
     },
     {
       label: "Dirección",
-      value: "Del Cerro esquina Buena Vista, Pueblo San Vicente Maldonado-Uruguay cp:20000",
+      value: "Del Cerro esquina Buena Vista, Pueblo San Vicente, Maldonado, Uruguay (CP: 20000)",
       href: "#",
     },
   ],
-  about: "Nutricionista especializada en educación nutricional y asesoramiento personalizado, con enfoque en alimentación saludable y desarrollo de planes nutricionales individualizados.",
+  about: "Nutricionista especializada en educación nutricional y asesoramiento personalizado, con enfoque en alimentación saludable y desarrollo de planes nutricionales individualizados. Especialista en intervención nutricional para patologías digestivas, con más de una década de experiencia en el tratamiento de trastornos gastrointestinales mediante protocolos nutricionales personalizados.",
 };
