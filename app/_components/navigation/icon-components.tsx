@@ -1,3 +1,4 @@
+import type { JSX } from 'react';
 import { MoonIcon } from '@/app/_components/icons/MoonIcon';
 import { SunIcon } from '@/app/_components/icons/SunIcon';
 
